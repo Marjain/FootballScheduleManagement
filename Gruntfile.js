@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				files: {
-					'assets/css/main.css' : '\assets\scss\main.scss'
+					'assets/css/main.css' : 'assets/scss/main.scss'
 				}
 			}
 		},
@@ -13,9 +13,18 @@ module.exports = function(grunt) {
 				files: '**/*.scss',
 				tasks: ['sass']
 			}
-		}
+		},
+		serve: {
+			options: {
+            port: 9000,
+						livereload: true,
+						'path': '/Users/mrkumar3/FootballScheduleManagement/index.html'
+        }
+    }
 	});
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default',['watch']);
+	grunt.loadNpmTasks('grunt-serve');
+	grunt.registerTask('build', ['sass','serve','watch']);
+
 }

@@ -1,0 +1,113 @@
+//font-size
+$fsm-fontsize-0-69: 0.69em;
+$fsm-fontsize-0-75: 0.75em;
+$fsm-fontsize-0-88: 0.88em;
+$fsm-fontsize-1-25: 1.25em;
+$fsm-fontsize-1-56: 1.56em;
+$fsm-fontsize-1-75: 1.75em;
+$fsm-fontsize-0-938: 0.938em;
+$fsm-fontsize-1: 1em;
+$fsm-fontsize-1-5: 1.5em;
+$fsm-fontsize-1-13: 1.13em;
+$fsm-fontsize-1-93: 1.93em;
+
+//letter-spacing
+$fsm-letter-space-04:0.04em;
+$fsm-letter-space-02:0.02em;
+
+//line-height
+$line-height-1-55:1.55em;
+$line-height-1-29:1.29em;
+
+//border color grey
+$border-999:1px solid #999;
+$border-5d5d:1px solid #5d5d5d;
+$border-9797:1px solid #979797;
+
+//borders color blue
+$border-5d85:1px solid #005d85;
+
+//thick border
+$border-thick-5d85:2px solid #005d85;
+$border-thick-75b0:2px solid #0075b0;
+
+
+//thick 3px border
+$border-thick-69a6:3px solid #0069a6;
+//black border
+$border-black-alpha:1px solid #000;
+
+//red border
+$border-thick-red:2px solid #ef4036;
+
+//$border-white:1px solid #fff;
+$border-black:1px solid #000;
+
+//borders with Alpha
+$border-5d85-aplha-30:1px solid rgba(#005c84, 0.30);
+
+//border with Alpha color grey
+$border-999-alpha-10:1px solid rgba(#999, 0.10);			//Aplha 10%
+$border-999-alpha-30:1px solid rgba(#999, 0.30);			//Aplha 30%
+$border-9797-alpha-40:1px solid rgba(#999, 0.40);			//Aplha 30%
+
+//border with Alpha color blue
+$border-5d85-alpha-30:1px solid rgba(#005c84, 0.30);		//Alpha 30%
+$border-5d85-alpha-40:1px solid rgba(#005c84, 0.40);		//Alpha 40%
+$border-6699-alpha-40:1px solid rgba(#0075b0, 0.40);		//Alpha 40%
+
+//border black color with Alpha
+$border-black-alpha-10:1px solid rgba(#000, 0.10);			//Alpha 10%
+$border-black-alpha-20:1px solid rgba(#000, 0.20);			//Alpha 10%
+$border-black-alpha-15:1px solid rgba(#000, 0.15);			//Alpha 15% right border
+$border-black-alpha-40:1px solid rgba(#000, 0.40);
+$border-black-alpha-60:1px solid rgba(#000, 0.60);
+$border-black-alpha-70:1px solid rgba(#000, 0.70);
+
+//border white color with Alpha
+$border-white-alpha-20:1px solid rgba(#fff, 0.20);			//Alpha 15% right border
+$border-white-thick-alpha-20:2px solid rgba(#fff, 0.20);			//Alpha 15% right border
+$border-white-alpha-40:1px solid rgba(#fff, 0.40);
+
+//background colors
+$background-white:#fff;
+$background-black:#000;
+
+//background with Alpha
+$background-999-alpha-10:rgba(#999, 0.10);				//Alpha 10%
+$background-97-alpha-10:rgba(#999, 0.10);					//Alpha 10%
+
+$background-cc-alpha-70:rgba(#ccc, 0.70);					//Alpha 70%
+
+$background-black-alpha-10:rgba(#000, 0.10);				//Alpha 10%
+$background-black-alpha-15:rgba(#000, 0.15);				//Alpha 15%
+
+$background-white-alpha-0:rgba(#fff, 0.0);					//Alpha 0%
+$background-white-alpha-30:rgba(#fff, 0.30);				//Alpha 30%
+$background-white-alpha-55:rgba(#fff, 0.55);				//Alpha 55%
+$background-white-alpha-65:rgba(#fff, 0.65);				//Alpha 65%
+$background-white-alpha-75:rgba(#fff, 0.75);				//Alpha 75%
+$background-white-alpha-85:rgba(#fff, 0.85);				//Alpha 85%
+$background-white-alpha-90:rgba(#fff, 0.90);				//Alpha 85%
+$background-f2f2-alpha-95:rgba(#f2f2f2, 0.95);								//Alpha 95%
+
+$background-blue-alpha-70:rgba(#0075b0, 0.70);				//Alpha 70%
+$background-blueef-alpha-60:rgba(#009fda, 0.60);			//Alpha 70%
+
+// background - fffce4
+$background-fffce4-alpha-20:rgba(#fffce4, 0.20);
+
+//green background
+$background-green-1f-alpha-60:rgba(#69be28, 0.70);		//Alpha 70%
+$background-yellow-fc-alpha-65:rgba(#fffce4, 0.65);
+$background-yellow-fc-alpha-70:rgba(#fffce4, 0.70);
+
+$border-9fda:1px solid #009fda;
+$background-f2f2-alpha-97:rgba(#f2f2f2, 0.97);
+//custom responsive
+$break_large_up: 2100px;
+$break_large_low: 1279px;
+$break_tablet_landscape: 1023px;
+$break_tablet_portrait-up: 1023px;
+$break_tablet_portrait-low: 768px;
+$break_mobile: 580px;
