@@ -1,0 +1,47 @@
+/* Primary Colors */
+/* End Primary Colors */
+/* Secondary Colors */
+/* End Secondary Colors */
+/* GreyScale Colors */
+/* End GreyScale Colors */
+/* Additional Colors */
+/* Background Color */
+/* Mentionining this as an additional color to be more flexible, rather than a background color */
+/* End Background Color */
+.headContainer {
+  color: #ffffff;
+  background-color: #1d2129;
+  height: 90px; }
+
+.headContainer > .headLeft {
+  font-size: 36px;
+  padding-left: 80px;
+  padding-top: 20px; }
+
+.headContainer > .headRight {
+  font-size: 16px;
+  padding-top: 6px; }
+
+.mainBody {
+  background-image: url("../images/football.jpg");
+  background-repeat: no-repeat;
+  height: 520px;
+  background-size: 100% 100%;
+  color: #ffffff;
+  margin-top: 2px; }
+
+#signUp {
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 0px; }
+
+#free {
+  font-size: 18px;
+  padding-left: 0px;
+  font-weight: bold;
+  padding-bottom: 20px; }
+
+input {
+  color: black; }
+
+/*# sourceMappingURL=main.css.map */

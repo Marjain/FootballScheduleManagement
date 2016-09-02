@@ -1,0 +1,36 @@
+.headContainer{
+color:$PrimaryColor3;
+background-color: #1d2129;
+height:90px;
+}
+.headContainer>.headLeft{
+  font-size: 36px;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+.headContainer>.headRight{
+  font-size: 16px;
+  padding-top: 6px;
+}
+.mainBody{
+  background-image: url("../images/football.jpg");
+  background-repeat: no-repeat;
+  height:520px;
+  background-size: 100% 100%;
+  color:$PrimaryColor3;
+  margin-top: 2px;
+}
+#signUp{
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 0px;
+}
+#free{
+  font-size: 18px;
+  padding-left: 0px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+input{
+  color:black;
+}
