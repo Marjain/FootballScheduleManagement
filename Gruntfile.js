@@ -15,10 +15,9 @@ module.exports = function(grunt) {
 			}
 		},
 		serve: {
+			path: '/index.html',
 			options: {
             port: 9000,
-						livereload: true,
-						'path': '/Users/mrkumar3/FootballScheduleManagement/index.html'
         }
     }
 	});
