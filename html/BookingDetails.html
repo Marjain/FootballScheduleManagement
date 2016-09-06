@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+  <script type="text/javascript">
+
+    function initMap() {
+        var mapDiv=document.getElementById('gmap_canvas');
+        var map=new google.maps.Map(mapDiv,{
+          center: {lat: 12.9715987, lng: 77.59456269999998},
+          zoom: 15
+        });
+        var infowindow=new google.maps.InfoWindow({
+          content: "Bangalore Stadium"
+        });
+        var marker=new google.maps.Marker({
+          map:map,
+          position: {lat: 12.9688712, lng: 77.6093963},
+          name: "Bangalore Stadium"
+        });
+        var marker1=new google.maps.Marker({
+          map:map,
+          position: {lat:12.9715987, lng:77.59456269999998},
+          name: "Play Mania"
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+    }
+
+  </script>
+  <link rel="stylesheet" href="../assets/css/_booking-details.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQa8iiqBf35Kf7p4IV-vVNIEA84Xa2MLI&amp;callback=initMap">
+  </script>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 grounds">
+    <h1>
+      Book the ground
+    </h1>
+    <div class="template">
+      <p class="head">Bangalore Football Stadium</p>
+      <h5>Ashok Nagar</h5>
+      <div class="row">
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary">Book Now</button>
+        </div>
+        <div class="col-sm-5 col-sm-offset-3">
+          <a href="tel:9814418510">
+            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="template">
+      <p class="head">Play Mania</p>
+      <h5>Bellandur</h5>
+      <div class="row">
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary">Book Now</button>
+        </div>
+        <div class="col-sm-5 col-sm-offset-3">
+          <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="template">
+      <p class="head">XLR8 Indoor Stadium</p>
+      <h5>Kothanur</h5>
+      <div class="row">
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary">Book Now</button>
+        </div>
+        <div class="col-sm-5 col-sm-offset-3">
+          <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+            <a href="http://www.xlr8india.com/">
+              <i class="fa fa-globe fa-2x"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="template">
+      <p class="head">Power Play Sports</p>
+      <h5>Whitefield</h5>
+      <div class="row">
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary">Book Now</button>
+        </div>
+        <div class="col-sm-5 col-sm-offset-3">
+          <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+          <a href="http://www.powerplayindia.in/">
+            <i class="fa fa-globe fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="template">
+      <p class="head">Kicks On Grass</p>
+      <h5>Bellandur</h5>
+      <div class="row">
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary">Book Now</button>
+        </div>
+        <div class="col-sm-5 col-sm-offset-3">
+            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="template">
+      <p class="head">Magnum Arena</p>
+      <h5>Sarjapur Main Rd</h5>
+      <div class="row">
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary">Book Now</button>
+        </div>
+        <div class="col-sm-5 col-sm-offset-3">
+          <i class="fa fa-phone fa-2x" "="" aria-hidden="true"></i>
+          <a href="http://www.magnumarena.com/">
+            <i class="fa fa-globe fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-9">
+    <div id="gmap_canvas" style="height: 750px; width: 1070px">
+  </div>
+</div>
+</div>
+</body>
+</html>
