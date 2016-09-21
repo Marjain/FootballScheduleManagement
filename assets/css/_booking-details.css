@@ -1,0 +1,37 @@
+.groundsAvailable{
+    margin-left: 0px;
+    background-color: gray;
+  }
+.ground {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 700px;
+  margin-left: 0px;
+}
+.fullContainer{
+  margin:0px ;
+  height: 100%;
+}
+
+.template {
+  width: 100%;
+  height: 120px;
+  margin-left: 2px;
+  margin-top: 2px;
+  border: 1px solid gray;
+}
+p.head{
+    font-size:16px;
+    font-weight: bold;
+  }
+i.fa {
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.imageMap {
+
+  background-image: url("../images/map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
